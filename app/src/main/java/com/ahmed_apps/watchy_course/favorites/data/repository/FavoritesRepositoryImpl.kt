@@ -131,8 +131,7 @@ class FavoritesRepositoryImpl @Inject constructor(
     }
 
     private suspend fun syncFavoritesMedia() {
-        val favoriteMediaEntities =
-            favoriteMediaDao.getAllFavoriteMediaItem()
+        val favoriteMediaEntities = favoriteMediaDao.getAllFavoriteMediaItem()
 
         favoriteMediaEntities.forEach { favoriteMediaEntity ->
             if (favoriteMediaEntity.isDeletedLocally) {

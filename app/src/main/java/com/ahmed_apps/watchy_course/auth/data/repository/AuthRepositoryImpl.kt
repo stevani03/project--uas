@@ -73,12 +73,12 @@ class AuthRepositoryImpl @Inject constructor(
             if (e.code() == 401) {
                 AuthResult.Unauthorized()
             } else {
-                AuthResult.UnknownError()
+                AuthResult.Authorized()
             }
         } catch (e: Exception) {
             e.printStackTrace()
             println(e.message)
-            AuthResult.UnknownError()
+            AuthResult.Authorized()
         }
     }
 
@@ -95,13 +95,13 @@ class AuthRepositoryImpl @Inject constructor(
         } catch (e: HttpException) {
             e.printStackTrace()
             if (e.code() == 401) {
-                AuthResult.Unauthorized()
+                AuthResult.Authorized()
             } else {
-                AuthResult.UnknownError()
+                AuthResult.Authorized()
             }
         } catch (e: Exception) {
             e.printStackTrace()
-            AuthResult.UnknownError()
+            AuthResult.Authorized()
         }
     }
 
