@@ -1,17 +1,15 @@
 # Watchy: Your Movie and TV Series Companion
 
- ## Download Watchy:
- https://archive.org/download/watchy_apk_202411/watchy_apk.apk
+## About the App
 
+Watchy is a dynamic Android app, built with the latest technologies like Jetpack Compose and Kotlin, delivering an immersive experience for movie and TV series enthusiasts. The app prioritizes clean code principles, secure user experience, and seamless functionality.
 
- ## About the App
-
- Watchy is a dynamic Android app, crafted with cutting-edge technologies like Jetpack Compose and Kotlin, delivering an immersive experience for movie and TV series enthusiasts. Developed by Ahmed Guedmioui, Watchy prioritizes clean code principles, secure user experience, and seamless functionality.
-
- ## About The App
+## About The App
 With this app you can get information about movies and TV series, watch trailer, search and find the latest, most popular and trending movies and TV series. You can also create your favorites and bookmarks list. As well as authentication and user data are securely managed with a Ktor backend, which safely stores all user information in MongoDB Atlas, ensuring data integrity and confidentiality. Additionally, this data is efficiently synchronized with a local Room database, ensuring seamless access and consistent user experience across the application.
 
- ## Key Features
+## Download Watchy: [Here](https://archive.org/download/watchy_apk_202411/watchy_apk.apk)
+
+## Key Features
 
 **Comprehensive Information:** Explore detailed movie and TV series data, including trailers, ratings, genres, and more.
 **Effortless Exploration:** Search and browse the latest, most popular, and trending content with ease.
@@ -22,7 +20,7 @@ With this app you can get information about movies and TV series, watch trailer,
 **Secure Authentication:** JWT authentication ensures only authorized users have access, safeguarding your information.
 **Seamless Synchronization:** Local and remote data (favorites and bookmarks) are kept in sync for consistent experience across devices.
 
- ## Getting Started
+## Getting Started
 
 Clone the repository: git clone https://github.com/ahmed-guedmioui/Watchy.git
 Get an API key from themoviedb.org's API https://developer.themoviedb.org/docs/getting-started
@@ -30,13 +28,13 @@ Put your API key in config.properties file
 Build and run the project: Use your Android Studio to bring Watchy to life.
 Explore and contribute: Dive into the codebase, share your enhancements, and provide feedback.
 
- ## Contributions
+## Contributions
 
- We welcome your contributions! Whether it's fixing a bug, adding a feature, or improving the documentation, your participation is valued. Join the community!
+We welcome your contributions! Whether it's fixing a bug, adding a feature, or improving the documentation, your participation is valued. Join the community!
 
- ## Community Appreciation
+## Community Appreciation
 
- A heartfelt thank you to the open-source community for their invaluable contributions and support. Let's make Watchy the ultimate companion for movie and TV series enthusiasts!
+A heartfelt thank you to the open-source community for their invaluable contributions and support. Let's make Watchy the ultimate companion for movie and TV series enthusiasts!
 
 ## Images From The App
 ![main](https://github.com/ahmed-guedmioui-courses/Watchy/assets/59929234/993621f7-f094-423b-a43b-5343ea3c6eed)
