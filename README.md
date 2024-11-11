@@ -13,13 +13,13 @@ Watchy is a dynamic Android app, built with the latest technologies like Jetpack
 
 ## Features
 - **Solid Architecture:**
-Clean architicture and The MVI design pattern to provide code clarity, testability and maintainability, with Dagger Hilt for dependency injection.
+Clean architecture and The MVI design pattern to provide code clarity, testability and maintainability, with Dagger Hilt for dependency injection.
 - **Offline Functionality:**
 Cashing movies, TV shows, favorites and bookmarks with RoomDB for an uninterrupted access even without an internet connection.
 - **Modern UI:**
  A cutting-edge and interactive UI built with Jetpack Compose for smooth performance and navigation.
 - **Secure Authentication:**
-A combanation of security techincts for a safe authentication with JWT tokens and a Ktor backend.
+A combination of security techniques for a safe authentication with JWT tokens and a Ktor backend.
 - **seamless synchronization:**
 Local and remote data (favorites and bookmarks) are kept in sync for consistent experience across devices.
 
