@@ -31,8 +31,9 @@ Local and remote data (favorites and bookmarks) are kept in sync for consistent 
 - **Ktor:** For securly authenticating users and data managment. (https://github.com/ahmed-guedmioui/Watchy-Ktor-Backend.git)
 - **Mongo Database:** A remote database solution to access prefrences across devices
 
+
 ## Getting Started
-Clone the repository: git clone https://github.com/ahmed-guedmioui/Watchy.git
+Clone the repository: git clone https://github.com/ahmed-guedmioui/Watchy-App.git
 Get an API key from themoviedb.org's API https://developer.themoviedb.org/docs/getting-started
 Put your API key in config.properties file
 Build and run the project: Use your Android Studio to bring Watchy to life.
