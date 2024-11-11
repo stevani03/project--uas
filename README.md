@@ -28,7 +28,7 @@ Local and remote data (favorites and bookmarks) are kept in sync for consistent 
 - **Jetpack Compose:** For building responsive, modern UIs.
 - **Retrofit:** The app fetches all the data from themoviedb.org's API (https://developer.themoviedb.org/docs/getting-started) using Retrofit.
 - **Gradle:** With multi-module and convention plugin configurations.
-- **Ktor:** For securly authenticating users and data managment. (https://github.com/ahmed-guedmioui/Watchy-Backend.git)
+- **Ktor:** For securly authenticating users and data managment. (https://github.com/ahmed-guedmioui/Watchy-Ktor-Backend.git)
 - **Mongo Database:** A remote database solution to access prefrences across devices
 
 ## Getting Started
