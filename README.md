@@ -26,9 +26,9 @@ Local and remote data (favorites and bookmarks) are kept in sync for consistent 
 ## Tech Stack
 - **Kotlin:** Language for Android development.
 - **Jetpack Compose:** For building responsive, modern UIs.
-- **Retrofit:** The app fetches all the data from themoviedb.org's API (https://developer.themoviedb.org/docs/getting-started) using Retrofit.
+- **Retrofit:** The app fetches all the data from ([themoviedb.org API](https://developer.themoviedb.org/docs/getting-started)) using Retrofit.
 - **Gradle:** With multi-module and convention plugin configurations.
-- **Ktor:** For securly authenticating users and data managment. (https://github.com/ahmed-guedmioui/Watchy-Ktor-Backend.git)
+- **Ktor:** For securely authenticating users and data management. ([Watchy-Ktor-Backend](https://github.com/ahmed-guedmioui/Watchy-Ktor-Backend.git))
 - **Mongo Database:** A remote database solution to access prefrences across devices
 
 
