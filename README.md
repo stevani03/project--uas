@@ -33,11 +33,11 @@ Local and remote data (favorites and bookmarks) are kept in sync for consistent 
 
 
 ## Getting Started
-Clone the repository: git clone https://github.com/ahmed-guedmioui/Watchy-App.git
-Get an API key from themoviedb.org's API https://developer.themoviedb.org/docs/getting-started
-Put your API key in config.properties file
-Build and run the project: Use your Android Studio to bring Watchy to life.
-Explore and contribute: Dive into the codebase, share your enhancements, and provide feedback.
+- Clone the repository: git clone https://github.com/ahmed-guedmioui/Watchy-App.git
+- Get an API key from themoviedb.org's API https://developer.themoviedb.org/docs/getting-started
+- put your API key in config.properties file
+- Build and run the project: Use your Android Studio to bring Watchy to life.
+- Explore and contribute: Dive into the codebase, share your enhancements, and provide feedback.
 
 ## Contributions
 We welcome your contributions! Whether it's fixing a bug, adding a feature, or improving the documentation, your participation is valued. Join the community!
