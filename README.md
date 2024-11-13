@@ -9,7 +9,7 @@ Watchy is a dynamic Android app, built with the latest technologies like Jetpack
 - Create favorites and bookmarks lists and access them across devices.
 - Access your favorites, bookmarks and other content even without an internet connection.
 
-## Download Watchy → [Here](https://archive.org/download/watchy_apk_202411/watchy_apk.apk)
+## Download Watchy → [Here](https://archive.org/download/Watchy/Watchy.apk)
 
 ## Features
 - **Solid Architecture:**
