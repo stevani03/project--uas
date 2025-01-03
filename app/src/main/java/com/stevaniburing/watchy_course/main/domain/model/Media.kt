@@ -1,8 +1,5 @@
 package com.stevaniburing.watchy_course.main.domain.model
 
-/**
- * @author Ahmed Guedmioui
- */
 data class Media(
     val mediaId: Int,
 
