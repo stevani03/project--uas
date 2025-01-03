@@ -1,24 +1,23 @@
 package com.stevaniburing.watchy_course
 
+// Mengimpor kelas yang dibutuhkan untuk menjalankan pengujian instrumen pada aplikasi Android
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
 
+// Mengimpor kelas dan anotasi untuk pengujian unit
 import org.junit.Test
 import org.junit.runner.RunWith
-
 import org.junit.Assert.*
 
-/**
- * Instrumented test, which will execute on an Android device.
- *
- * See [testing documentation](http://d.android.com/tools/testing).
- */
-@RunWith(AndroidJUnit4::class)
+@RunWith(AndroidJUnit4::class) // Menentukan bahwa pengujian ini akan dijalankan menggunakan AndroidJUnit4
 class ExampleInstrumentedTest {
-    @Test
+    
+    @Test // Menandai metode ini sebagai metode pengujian
     fun useAppContext() {
-        // Context of the app under test.
+        // Mendapatkan konteks aplikasi yang sedang diuji
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
+        
+        // Memastikan bahwa nama paket aplikasi yang sedang diuji sesuai dengan yang diharapkan
         assertEquals("com.stevaniburing.watchy_course", appContext.packageName)
     }
 }
