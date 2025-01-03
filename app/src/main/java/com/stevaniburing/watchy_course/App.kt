@@ -4,13 +4,15 @@ import android.app.Application
 import dagger.hilt.android.HiltAndroidApp
 import timber.log.Timber
 
-/**
- * @author Ahmed Guedmioui
- */
+// Kelas ini menginisialisasi aplikasi dan menyediakan dependensi melalui Hilt
 @HiltAndroidApp
 class App: Application() {
+
+    // Fungsi ini dipanggil saat aplikasi pertama kali dibuat
     override fun onCreate() {
         super.onCreate()
+        
+        // Menanamkan pohon debug Timber untuk logging selama pengembangan
         Timber.plant(Timber.DebugTree())
     }
 }
