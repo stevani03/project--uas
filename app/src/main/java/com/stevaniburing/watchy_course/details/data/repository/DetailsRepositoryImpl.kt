@@ -14,9 +14,6 @@ import retrofit2.HttpException
 import java.io.IOException
 import javax.inject.Inject
 
-/**
- * @author Ahmed Guedmioui
- */
 class DetailsRepositoryImpl @Inject constructor(
     private val detailsApi: DetailsApi,
     private val mainRepository: MainRepository,
