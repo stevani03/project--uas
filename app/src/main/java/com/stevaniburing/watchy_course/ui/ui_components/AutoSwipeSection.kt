@@ -18,9 +18,13 @@ import androidx.navigation.NavController
 import com.stevaniburing.watchy_course.R
 import com.stevaniburing.watchy_course.main.domain.model.Media
 
-/**
- * @author Ahmed Guedmioui
- */
+// Komponen UI yang menampilkan bagian AutoSwipe dengan judul dan opsi navigasi "See All".
+// title Judul untuk bagian ini.
+// route Rute navigasi yang digunakan ketika "See All" diklik.
+// showSeeAll Indikator apakah teks "See All" harus ditampilkan.
+// mainNavController Kontroler navigasi utama untuk item media.
+// navController Kontroler navigasi tambahan untuk rute lain (opsional).
+// mediaList Daftar objek media yang akan ditampilkan dalam komponen swipe.
 @Composable
 fun AutoSwipeSection(
     title: String,
@@ -30,61 +34,40 @@ fun AutoSwipeSection(
     navController: NavController? = null,
     mediaList: List<Media>
 ) {
-
+    // Kolom untuk mengatur elemen dalam tata letak vertikal.
     Column {
+        // Baris atas dengan judul dan opsi "See All".
         Row(
             modifier = Modifier
-                .fillMaxWidth()
-                .padding(horizontal = 32.dp, vertical = 16.dp),
-            verticalAlignment = Alignment.CenterVertically,
-            horizontalArrangement = Arrangement.SpaceBetween
+                .fillMaxWidth() // Memenuhi lebar layar.
+                .padding(horizontal = 32.dp, vertical = 16.dp), // Memberikan padding.
+            verticalAlignment = Alignment.CenterVertically, // Menyatukan item secara vertikal.
+            horizontalArrangement = Arrangement.SpaceBetween // Memberikan ruang di antara item.
         ) {
-
+            // Menampilkan teks judul.
             Text(
                 text = title,
-                color = MaterialTheme.colorScheme.onBackground,
-                fontSize = 20.sp
+                color = MaterialTheme.colorScheme.onBackground, // Menggunakan warna tema.
+                fontSize = 20.sp // Ukuran font.
             )
 
+            // Menampilkan teks "See All" jika diaktifkan.
             if (showSeeAll) {
                 Text(
                     modifier = Modifier.clickable {
-                        navController?.navigate(route)
+                        navController?.navigate(route) // Navigasi ke rute jika diklik.
                     },
-                    text = stringResource(id = R.string.see_all),
-                    color = MaterialTheme.colorScheme.onBackground.copy(0.7f),
-                    fontSize = 14.sp
+                    text = stringResource(id = R.string.see_all), // Teks "See All" dari resources.
+                    color = MaterialTheme.colorScheme.onBackground.copy(0.7f), // Warna teks dengan transparansi.
+                    fontSize = 14.sp // Ukuran font.
                 )
             }
         }
 
+        // Menampilkan komponen swipe untuk daftar media.
         AutoImageSwipePager(
-            mainNavController = mainNavController,
-            mediaList = mediaList
+            mainNavController = mainNavController, // Kontroler navigasi utama.
+            mediaList = mediaList // Daftar media.
         )
     }
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
