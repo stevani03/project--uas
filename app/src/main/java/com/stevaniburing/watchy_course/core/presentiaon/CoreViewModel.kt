@@ -13,9 +13,6 @@ import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
-/**
- * @author Ahmed Guedmioui
- */
 
 @HiltViewModel
 class CoreViewModel @Inject constructor(
