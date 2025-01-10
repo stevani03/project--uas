@@ -15,9 +15,6 @@ import retrofit2.HttpException
 import java.io.IOException
 import javax.inject.Inject
 
-/**
- * @author Ahmed Guedmioui
- */
 class SearchRepositoryImpl @Inject constructor(
     private val searchApi: SearchApi,
     private val application: Application,
