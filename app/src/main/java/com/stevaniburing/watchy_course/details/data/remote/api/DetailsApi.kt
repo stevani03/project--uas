@@ -8,9 +8,6 @@ import retrofit2.http.GET
 import retrofit2.http.Path
 import retrofit2.http.Query
 
-/**
- * @author Ahmed Guedmioui
- */
 interface DetailsApi {
 
     @GET("{type}/{id}")
